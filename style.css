@@ -1,0 +1,36 @@
+#gameover {
+    background-image: url("gameover.jpg");
+    background-size: cover;
+    width: 25vw;
+    min-height: 25vw;
+    height: auto;
+    border: 6px solid #DF65B1;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+body {
+        text-align: center;
+        list-style-position: inside;
+        background-color: #140E2D;
+        color: white;
+        font-size: larger;
+}
+
+hr {
+    width: 40%;
+}
+
+.bluetext {
+    color: #41C7F4
+}
+
+.pinktext {
+    color: #DF65B1
+}
+
+h1 {
+    font-size: 4em;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia Game</title>
+  </head>
+  
+  <body>
+    <h1 class="bluetext">Trivia Game!</h1>
+    <hr />
+    <p id="PlayerName">What should we call you? <input type="text" id="name-input" maxlength="10" /></p>
+    <p id="ErrorMessage"></p>
+    <h2 id="Welcome"></h2>
+    <section id="mainGame"><p id="Instructions"></p>
+    <div id="options" class="buttons">
+      <label for="difficultylevel">Choose a difficulty level:</label>
+        <select name="difficultylevel" id="difficulty">
+         <option value="easy" selected>Easy</option>
+          <option value="medium">Medium</option>
+           <option value="hard">Hard</option>
+          </select>
+      <button id="GenerateQuestion">Get New Question</button>
+    </div>
+    <p id="Question" class="pinktext"></p>
+    <div class="buttons">
+        <button id="AnswerTrue">True</button>
+        <button id="AnswerFalse">False</button>
+    </div>
+    <p id="GameResult"></p>
+     <hr />
+    <p id="Score" class="bluetext"><strong>Correct: </strong><span id="correctResult"></span><br>
+        <strong>Incorrect:</strong> <span id ="incorrectResult"></span></p>
+    <p id="Commentary" class="bluetext"></p>   
+  </section> 
+    <div class="buttons">
+      <button id="EndGame">End Game</button><br>
+      <button id="ResetGame">Reset Game</button>
+    </div>
+    <p></p>
+    <ol id="PreviousQuestions"></ol>
+    <div id="gameover" class="pinktext"></div>   
+    <script src="main.js"></script>
+  </body>
+</html>
